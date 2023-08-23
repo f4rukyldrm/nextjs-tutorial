@@ -1,0 +1,54 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/blog/[id]/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.page_container___X5fm {
+}
+
+.page_top__x7n14 {
+  display: flex;
+}
+
+.page_info__nGN75 {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page_title__gih9x{
+  font-size: 40px;
+}
+
+.page_desc__f7EKF{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.page_author__LF9r2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page_avatar__Qg_tR {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.page_imageContainer__sRiVU {
+  flex: 1 1;
+  height: 300px;
+  position: relative;
+}
+
+.page_image__96Auz {
+  object-fit: cover;
+}
+
+.page_content__XNa9c {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-align: justify;
+}

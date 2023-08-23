@@ -1,0 +1,24 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/blog/page.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.page_container__sdT1e {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.page_image__7fjoy {
+    object-fit: cover;
+}
+
+.page_content__caxfN {}
+
+.page_title__HjEeY {
+    margin-bottom: 10px;
+}
+
+.page_desc__IUYyb {
+    font-size: 18px;
+    color: #999;
+}
