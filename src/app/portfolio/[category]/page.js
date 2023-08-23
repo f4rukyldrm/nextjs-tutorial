@@ -34,6 +34,7 @@ function Category({ params }) {
                             <Image
                                 className={styles.img}
                                 src={item.image}
+                                alt=''
                                 fill={true} />
                         </div>
                     </div>

@@ -13,7 +13,7 @@ function Dashboard() {
     const router = useRouter();
 
     const fetcher = (...args) => fetch(...args).then(res => res.json());
-    const { data, mutate, error, isLoading } = useSWR(`/api/posts?username=${session?.data?.user.name}`, fetcher);
+    const { data, mutate, error, isLoading } = useSWR(`http://127.0.0.1:3000/api/posts?username=${session?.data?.user.name}`, fetcher);
 
 
     if (session.status === 'loading') {

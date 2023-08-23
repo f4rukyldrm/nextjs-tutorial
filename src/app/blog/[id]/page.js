@@ -4,15 +4,19 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 async function getData(id) {
-    const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
-        cache: "no-store",
-    });
-
-    if (!res.ok) {
-        return notFound();
+    try {
+        const res = await fetch(`http://127.0.0.1:3000/api/posts/${id}`, {
+            cache: "no-store",
+        });
+    
+        if (!res.ok) {
+            return notFound();
+        }
+    
+        return res.json();
+    } catch (error) {
+        console.log(error);
     }
-
-    return res.json();
 }
 
 export async function generateMetadata({ params }) {
